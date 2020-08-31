@@ -1,0 +1,18 @@
+.el-stockists {
+  background-color: $light;
+  padding-bottom: 2.375rem;
+  padding-top: 2.375rem;
+}
+
+/**
+ * Some elements overlap the stockists element on large displays
+ */
+.el-before-stockists {
+  .el-image-side {
+    img {
+      @include media-breakpoint-up(lg) {
+        margin-bottom: -7rem;
+      }
+    }
+  }
+}

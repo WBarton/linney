@@ -1,0 +1,36 @@
+.el-image-side--flushed {
+  position: relative;
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+
+  .container {
+    @include media-breakpoint-up(lg) {
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.el-image-side {
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+}
+
+.el-image-columns {
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+}
+
+.el-image-col {
+  h3 {
+    margin-top: 2.375rem;
+  }
+}
+
+.el-rte {
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+}

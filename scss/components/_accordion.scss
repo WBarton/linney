@@ -1,0 +1,61 @@
+.el-accordion {
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+
+  .card-header .btn-link {
+    font-size: 1.125rem;
+    padding-right: 1.125rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .card-header .btn-link:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f068";
+    float: right;
+    margin-right: -1.125rem;
+  }
+
+  .card-header .btn-link.collapsed:after {
+    content: "\f067"; 
+  }
+
+  .card +.card {
+    margin-top: .625rem;
+  }
+
+  .card {
+    border: 2px solid #C9C9C9;
+  }
+
+  .accordion>.card:not(:last-of-type) {
+    border-bottom: 2px solid #C9C9C9;
+  }
+
+  .card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #C9C9C9;
+    padding: 1.25rem 1rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 1.25rem 1.875rem;
+    }
+  }
+
+  .card-body {
+    padding: 1.5rem 1rem .875rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 1.5rem 1.875rem .875rem;
+    }
+  }
+
+  .btn-link {
+    padding: 0;
+    color: $darker;
+    text-decoration: none;
+  }
+}
