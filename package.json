@@ -1,22 +1,28 @@
 {
   "name": "linney",
-  "description": "Linney website",
-  "version": "0.0.0",
-  "dependencies": {
-    "bootstrap": "^4.5.0"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "sass:watch": "npx node-sass scss/main.scss Styles/main.css -w ./scss -r --include-path ./ --output-style compressed --source-map-embed",
-    "sass": "npx node-sass scss/main.scss Styles/main.css --include-path ./ --output-style compressed --source-map-embed"
+    "build": "node ./src/methods/index.js",
+    "sass:watch": "npx node-sass ./src/scss/main.scss ./dist/css/main.css -w ./src/scss -r --include-path ./ --output-style compressed --source-map-embed",
+    "sass": "npx node-sass ./src/scss/main.scss ./dist/css/main.css --include-path ./ --output-style compressed --source-map-embed"
   },
-  "author": "Linney Group",
-  "license": "UNLICENSED",
-  "private": true,
-  "engines": {
-    "node": ">=5.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBarton/linney.git"
   },
-  "devDependencies": {
-    "http-server": "^0.12.3",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WBarton/linney/issues"
+  },
+  "homepage": "https://github.com/WBarton/linney#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "front-matter": "^4.0.2",
+    "marked": "^1.1.1",
     "node-sass": "^4.14.1"
   }
 }

@@ -1,0 +1,44 @@
+.el-footer {
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+.el-footer-cta {
+  background-color: $light;
+  padding-top: 3.875rem;
+  padding-bottom: 3.875rem;
+
+  span {
+    font-family: $font-family-headings;
+    font-size: 3.75rem;
+  }
+}
+
+.el-sign-off {
+  font-family: $font-family-headings;
+  font-size: 1.563rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: $primary;
+  color: #fff;
+}
+
+.el-footer-nav {
+  background-color: $dark;
+}
+
+.social-links {
+  font-size: 1.6rem;
+
+  a {
+    color: #fff;
+    text-decoration: none !important;
+
+    &:hover,
+    &:focus {
+      color: rgba(#fff, 0.7);
+    }
+  }
+}
