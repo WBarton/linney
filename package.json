@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy:media": "cp -r ./src/media/* dist",
-    "copy:assets": "cp -r ./src/assets/* dist",
+    "copy:media": "cp -r ./src/media dist",
+    "copy:assets": "cp -r ./src/assets dist",
     "build": "node ./src/methods/index.js",
     "sass:watch": "npx node-sass ./src/scss/main.scss ./dist/css/main.css -w ./src/scss -r --include-path ./ --output-style compressed --source-map-embed",
     "sass": "npx node-sass ./src/scss/main.scss ./dist/css/main.css --include-path ./ --output-style compressed --source-map-embed",
