@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "copy:media": "cp -r media/* dist",
+    "copy:assets": "cp -r assets/* dist",
     "build": "node ./src/methods/index.js",
     "sass:watch": "npx node-sass ./src/scss/main.scss ./dist/css/main.css -w ./src/scss -r --include-path ./ --output-style compressed --source-map-embed",
-    "sass": "npx node-sass ./src/scss/main.scss ./dist/css/main.css --include-path ./ --output-style compressed --source-map-embed"
+    "sass": "npx node-sass ./src/scss/main.scss ./dist/css/main.css --include-path ./ --output-style compressed --source-map-embed",
+    "netify": "npm run build && npm run sass && npm run copy:media && npm run copy:assets"
   },
   "repository": {
     "type": "git",
