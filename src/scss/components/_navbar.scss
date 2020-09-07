@@ -53,6 +53,15 @@ $navbar-dark-disabled-color: rgba(#fff, 0.3);
   }
 }
 
+.page-text-only {
+  header {
+    position: relative;
+
+    .container-max-width {
+      background-color: $dark;
+    }
+  }
+}
 header {
   position: absolute;
   width: 100%;

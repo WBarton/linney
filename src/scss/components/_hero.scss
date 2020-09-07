@@ -2,8 +2,12 @@
   .el-hero__content {
     position: relative;
     background-color: #fff;
-    padding: 4.375rem 6.25rem;
+    padding: 1.875rem 0.9375rem;
     margin-top: -4.375rem;
+
+    @include media-breakpoint-up(lg) {
+      padding: 4.375rem 6.25rem;
+    }
 
     h1 {
       max-width: 750px;

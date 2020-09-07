@@ -12,7 +12,7 @@ module.exports = (components, pConf) => `
       integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
       crossorigin="anonymous" />
   </head>
-  <body>
+  <body class="${pConf.class || ''}">
     <div class="site-wrapper" style="position: relative;">
 
       <header>
@@ -114,12 +114,12 @@ module.exports = (components, pConf) => `
               </div>
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="/privacy" class="nav-link">
                     Privacy
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="/cookies" class="nav-link">
                     Cookies
                   </a>
                 </li>
@@ -129,17 +129,17 @@ module.exports = (components, pConf) => `
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="/accessibility" class="nav-link">
                     Accessibility
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="/modern-slavery-policy" class="nav-link">
                     Modern slavery policy
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="/linney-gender-pay-gap-report" class="nav-link">
                     Gender pay gap
                   </a>
                 </li>

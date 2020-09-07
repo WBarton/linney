@@ -1,5 +1,27 @@
 .el-article-link {
   position: relative;
+  //height: 300px;
+  padding-top: 300px;
+  overflow: hidden;
+
+  @include media-breakpoint-up(lg) {
+    height: 400px;
+    padding-top: 0;
+  }
+
+  .el-article-link__image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      height: 400px;
+    }
+  }
 
   &:hover {
     .el-article-link__overlay {
@@ -7,22 +29,31 @@
     }
   }
   img {
-    
+
   }
   .el-article-link__overlay {
-    opacity: 0;
     transition: all ease-in-out .3s;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border: 8px solid #fff;
-    color: #fff;
-    background-color: transparentize(#000, .4);
+    border-left: 2px solid $dark;
+    color: $dark;
+    margin-bottom: 2.5rem;
+    padding-top: 2rem;
+
+    @include media-breakpoint-up(md) {
+      opacity: 0;
+      position: absolute;
+      background-color: transparentize(#000, .4);
+      border: 8px solid #fff;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      color: #fff;
+    }
 
     .el-article-link__content {
       width: 100%;
@@ -32,21 +63,44 @@
       font-weight: 900;
       line-height: 1;
       text-transform: uppercase;
-      border-bottom: 2px solid #fff;
-      padding-bottom: 0.5rem;
-      padding-left: 3rem;
+      padding-left: 1.625rem;
       display: inline-block;
-      margin-bottom: 1.875rem;
+      margin-bottom: 0.5625rem;
+
+      @include media-breakpoint-up(md) {
+        border-bottom: 2px solid #fff;
+        margin-bottom: 1.875rem;
+        padding-bottom: 0.5rem;
+        padding-left: 3rem;
+      }
     }
     .heading {
-      font-size: 2rem;
+      font-size: 1.875rem;
       font-family: $font-family-headings;
-      padding-left: 3rem;
-      margin-bottom: 3rem;
-      max-width: 360px;
+      padding-left: 1.625rem;
+      padding-right: 1.625rem;
+      margin-bottom: 0;
+      //max-width: 360px;
+
+      @include media-breakpoint-up(md) {
+        padding-left: 3rem;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        max-width: 360px;
+      }
     }
-    a {
+    .btn {
       margin-left: 3rem;
+      background-color: transparent !important;
+      color: $light !important;
+
+      @include media-breakpoint-down(md) {
+        height: 0;
+        padding: 0;
+        font-size: 0;
+        border: 0;
+        line-height: 0;
+      }
     }
   }
 }
