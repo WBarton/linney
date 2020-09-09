@@ -8,6 +8,8 @@ const articleLinkHalf = require('./articleLinkHalf');
 const quote = require('./quote');
 const articleLinkThirdLeft = require('./articleLinkThirdLeft');
 const articleLinkThirdRight = require('./articleLinkThirdRight');
+const stats = require('./stats');
+const image = require('./image');
 
 module.exports = {
   base,
@@ -20,4 +22,6 @@ module.exports = {
   articleLinkThirdLeft,
   articleLinkThirdRight,
   quote,
+  stats,
+  image,
 };

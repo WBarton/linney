@@ -7,7 +7,7 @@ module.exports = (o) => `
           ${o.body}
         </div>
       </div>
-      <div class="col-md-4 col-lg-4">
+      <div class="col-md-4 col-lg-4 align-self-end">
         <div class="el-rte__content">
           <ul>
             ${o.list

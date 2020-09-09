@@ -47,6 +47,9 @@ body {
 }
 
 .el-quote {
+  &.el-quote--spaced {
+    margin-bottom: 5rem;
+  }
   .el-quote__content {
     font-family: $font-family-headings;
     color: #fff;
@@ -78,7 +81,71 @@ body {
   }
 }
 
+.el-quote--small {
+  .el-quote__content {
+    font-family: $font-family-headings;
+    color: #fff;
+    padding: 4.75rem 2.25rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 4.75rem 6.25rem;
+    }
+
+    .quote {
+      font-size: 1.875rem;
+      line-height: 1.1;
+
+      @include media-breakpoint-up(md) {
+        font-size: 2.5rem;
+      }
+    }
+
+    .attribution {
+      font-size: 1.25rem;
+      line-height: 1.12;
+      margin-top: 1.875rem;
+      font-family: $font-family-base;
+      font-weight: 900;
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+      line-height: 1;
+      }
+    }
+  }
+}
+
 .el-quote--alt {
   background-color: #837732;
+}
+
+.el-stats-row {
+  margin-bottom: 3.375rem;
+}
+.el-stat {
+  //padding-top: 4.125rem;
+  //margin-bottom: 3.75rem;
+  @include media-breakpoint-up(lg) {
+    //padding-top: 8.125rem;
+  }
+  .el-stat__stat {
+    font-family: $font-family-headings;
+    font-size: 3.125rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 5rem;
+      line-height: 1.25;
+    }
+  }
+}
+
+.el-media--image {
+  margin-bottom: 4.25rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 6.25rem;
+  }
 }
 
