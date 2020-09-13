@@ -34,3 +34,21 @@
   margin-bottom: 5rem;
   //padding-top: 3.125rem;
 }
+
+.el-rte--lead {
+  @include media-breakpoint-up(lg) {
+    font-size: 1.875rem;
+  }
+
+  h1, .h1,
+  h2, .h2 {
+    margin-bottom: 1.4rem;
+    font-size: $h2-font-size;
+    line-height: 1.16;
+  
+    @include media-breakpoint-up(lg) {
+      font-size:  3.75rem;
+      line-height: 1.16;
+    }
+  }
+}

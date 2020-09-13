@@ -2,6 +2,7 @@
 template: rteNarrow
 order: 8
 alt: true
+lead: true
 ---
 
 ## Behind the scenes

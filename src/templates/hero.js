@@ -1,15 +1,17 @@
 module.exports = (o) => `
 <div class="el-hero">
-  <img src="${o.image}" class="img-fluid">
+  <div class="el-hero__image"
+    style="background-image: url(${o.image})">
+  </div>
   <div class="container">
-    <div class="el-hero__content">
-      <h1>
-        ${o.h1}
-      </h1>
-      <div class="">
-        ${o.body}
+    <div class="el-hero__overlay">
+      <div class="el-hero__content">
+        <h1>
+          ${o.h1}
+        </h1>
       </div>
     </div>
   </div>
 </div>
 `;
+

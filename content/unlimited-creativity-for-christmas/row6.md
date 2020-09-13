@@ -1,6 +1,7 @@
 ---
 template: rteNarrow
 order: 6
+lead: true
 ---
 
 ## More than the movie

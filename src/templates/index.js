@@ -1,5 +1,6 @@
 const base = require('./base');
 const hero = require('./hero');
+const heroArticle = require('./heroArticle');
 const rte = require('./rte');
 const rteNarrow = require('./rteNarrow');
 const rteList = require('./rteList');
@@ -14,6 +15,7 @@ const image = require('./image');
 module.exports = {
   base,
   hero,
+  heroArticle,
   rte,
   rteNarrow,
   rteList,

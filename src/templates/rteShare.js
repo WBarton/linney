@@ -1,5 +1,5 @@
 module.exports = (o) => `
-<div class="el-rte">
+<div class="el-rte ${(o.lead ? 'el-rte--lead' : '')}">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-md-8 col-lg-6">
