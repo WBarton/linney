@@ -6,6 +6,7 @@ const base = require('./base');
 const capabilities = require('./capabilities');
 const hero = require('./hero');
 const heroArticle = require('./heroArticle');
+const heroVideo = require('./heroVideo');
 const image = require('./image');
 const quote = require('./quote');
 const rte = require('./rte');
@@ -22,6 +23,7 @@ module.exports = {
   capabilities,
   hero,
   heroArticle,
+  heroVideo,
   image,
   quote,
   rte,
