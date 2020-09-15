@@ -70,6 +70,9 @@ module.exports = (o) => `
                   <div class="heading">
                     {{f.name}}
                   </div>
+                  <a :href="f.path" class="arrow-link stretched-link">
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
