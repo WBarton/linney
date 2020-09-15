@@ -1,5 +1,11 @@
 {
   "path": "/an-11-uplift-in-restaurant-sales-within-a-week",
   "name": "An 11% uplift in restaurant sales within a week",
-  "class": "page-text-only"
+  "class": "page-text-only",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 20200909
 }

@@ -6,10 +6,11 @@
   "scripts": {
     "copy:media": "cp -r ./src/media dist",
     "copy:assets": "cp -r ./src/assets dist",
+    "copy:js": "cp -r ./src/js dist",
     "build": "node ./src/methods/index.js",
     "sass:watch": "npx node-sass ./src/scss/main.scss ./dist/css/main.css -w ./src/scss -r --include-path ./ --output-style compressed --source-map-embed",
     "sass": "npx node-sass ./src/scss/main.scss ./dist/css/main.css --include-path ./ --output-style compressed --source-map-embed",
-    "netify": "npm run build && npm run sass && npm run copy:media && npm run copy:assets"
+    "netify": "npm run build && npm run sass && npm run copy:media && npm run copy:assets && npm run copy:js"
   },
   "repository": {
     "type": "git",

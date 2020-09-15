@@ -30,7 +30,7 @@ module.exports = (components, pConf) => `
               <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/capabilities" class="nav-link">
                       CAPABILITIES
                     </a>
                   </li>
@@ -159,6 +159,10 @@ module.exports = (components, pConf) => `
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"></script>
+
+    <script src="/js/vue.min.js"></script>
+    <script src="/js/list.js"></script>
+
   </body>
 </html>
 `;

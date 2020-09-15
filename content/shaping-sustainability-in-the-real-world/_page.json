@@ -1,5 +1,11 @@
 {
   "path": "/shaping-sustainability-in-the-real-world",
   "name": "Shaping sustainability in the real world",
-  "class": "page-text-only"
+  "class": "page-text-only",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 20200912
 }

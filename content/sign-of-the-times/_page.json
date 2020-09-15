@@ -1,5 +1,11 @@
 {
   "path": "/sign-of-the-times",
   "name": "Sign of the times",
-  "class": "page-text-only"
+  "class": "page-text-only",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 20200913
 }

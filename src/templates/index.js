@@ -1,29 +1,31 @@
-const base = require('./base');
-const hero = require('./hero');
-const heroArticle = require('./heroArticle');
-const rte = require('./rte');
-const rteNarrow = require('./rteNarrow');
-const rteList = require('./rteList');
 const articleLinkFull = require('./articleLinkFull');
 const articleLinkHalf = require('./articleLinkHalf');
-const quote = require('./quote');
 const articleLinkThirdLeft = require('./articleLinkThirdLeft');
 const articleLinkThirdRight = require('./articleLinkThirdRight');
-const stats = require('./stats');
+const base = require('./base');
+const capabilities = require('./capabilities');
+const hero = require('./hero');
+const heroArticle = require('./heroArticle');
 const image = require('./image');
+const quote = require('./quote');
+const rte = require('./rte');
+const rteList = require('./rteList');
+const rteNarrow = require('./rteNarrow');
+const stats = require('./stats');
 
 module.exports = {
-  base,
-  hero,
-  heroArticle,
-  rte,
-  rteNarrow,
-  rteList,
   articleLinkFull,
   articleLinkHalf,
   articleLinkThirdLeft,
   articleLinkThirdRight,
-  quote,
-  stats,
+  base,
+  capabilities,
+  hero,
+  heroArticle,
   image,
+  quote,
+  rte,
+  rteList,
+  rteNarrow,
+  stats,
 };

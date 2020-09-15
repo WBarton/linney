@@ -1,5 +1,11 @@
 {
   "path": "/powering-the-world-of-custom-bikes",
   "name": "Powering the world of custom bikes",
-  "class": "page-text-only"
+  "class": "page-text-only",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 202009
 }

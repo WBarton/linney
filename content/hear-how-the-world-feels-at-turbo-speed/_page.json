@@ -1,5 +1,11 @@
 {
   "path": "/hear-how-the-world-feels-at-turbo-speed",
   "name": "Hear how the world feels at turbo speed",
-  "class": "page-text-only"
+  "class": "page-text-only",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 20200910
 }

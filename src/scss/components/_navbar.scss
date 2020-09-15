@@ -28,6 +28,12 @@ $navbar-dark-disabled-color: rgba(#fff, 0.3);
 
 @import "../../../node_modules/bootstrap/scss/navbar";
 
+.nav {
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 .navbar {
   font-weight: 900;
   line-height: 1;

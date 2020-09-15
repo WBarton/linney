@@ -1,4 +1,10 @@
 {
   "path": "/unlimited-creativity-for-christmas",
-  "name": "Unlimited creativity for Christmas"
+  "name": "Unlimited creativity for Christmas",
+  "filter": "services",
+  "categories": [
+    "featured"
+  ],
+  "image": "/media/unlimited-creativity-for-christmas/Hero@2x.png",
+  "date": 20200914
 }
